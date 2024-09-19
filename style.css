@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --color-primario: #f6f6f6;
     --color-secundario: #0E202C;
@@ -198,13 +202,33 @@
     box-shadow: 0 0 20px #000000;
     padding: 10px;
     border-radius: 20px;
+    color: #e7e3e3;
 }
+
+.conteiner__box__recursos {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.box__simuladores {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 
 .imagen__limites {
     width: 100%;
 
     border-radius: 20px;
 
+}
+
+.imagen__limites2 {
+    width: 60%;
 }
 
 .seccion4 {
@@ -228,6 +252,13 @@
     gap: 40px;    
 }
 
+.imagen__recursos {
+    width: 70%;
+
+    border-radius: 20px;
+}
+
+
 
 /* sesiones */
 .conteiner__pdf {
@@ -239,4 +270,12 @@
 .pdf__viewer {
     width: 50%;
     height: 90vh;
+}
+
+
+.conteiner__footer {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #B2DBFE;
 }
